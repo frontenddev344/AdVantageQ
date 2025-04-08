@@ -1654,10 +1654,11 @@ textarea {
 }
 
 .cs_btn.cs_bg_accent::after {
-  background: #ffffff;
+  background: var(--dark-brown);
 }
 .cs_btn.cs_bg_accent:hover {
-  color: #093c55;
+  color: var(--secondary-clr);
+  color: #fff;
 }
 .cs_btn.cs_bg_accent.cs_dark_hover:hover {
   color: #ffffff;
@@ -1670,7 +1671,7 @@ textarea {
   color: #0d0c17;
 }
 .cs_btn.cs_bg_white::after {
-  background: #093c55;
+  background: var(--secondary-clr);
 }
 .cs_btn.cs_bg_white:hover {
   color: #ffffff;
