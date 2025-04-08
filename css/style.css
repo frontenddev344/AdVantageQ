@@ -1664,7 +1664,7 @@ textarea {
   color: #ffffff;
 }
 .cs_btn.cs_bg_accent.cs_dark_hover::after {
-  background-color: #0d0c17;
+  background-color: var(--dark-brown);
 }
 
 .cs_btn.cs_bg_white {
@@ -3550,6 +3550,11 @@ a.cs_header_text_btn {
 /*--------------------------------------------------------------
   17. Contact
 ----------------------------------------------------------------*/
+.cs_contact {
+  height: 100vh;
+  display: grid;
+  place-content: center;
+}
 .cs_contact_thumb {
   width: 50vw;
   margin-left: calc(-50vw + 102.7%);
