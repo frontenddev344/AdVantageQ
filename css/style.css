@@ -2092,6 +2092,7 @@ a.cs_header_text_btn {
     font-weight: 600;
     color: var(--secondary-clr);
     font-family: var(--sansantion);
+    text-transform: capitalize;
 }
   .cs_nav .cs_nav_list > li > a::before {
     content: "";
