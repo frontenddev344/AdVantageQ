@@ -3555,6 +3555,15 @@ a.cs_header_text_btn {
   position: relative;
   padding-right: 70px;
 }
+.contact-us-content .cs_social_btn a {
+  color: var(--theme-clr);
+  border-color: var(--theme-clr);
+}
+.contact-us-content img {
+  display: block;
+  max-width: 280px;
+  margin: 20px 0;
+}
 @media (max-width: 1399px) {
   .cs_contact_thumb {
     margin-left: calc(-50vw + 102.7%);
