@@ -221,6 +221,10 @@
     z-index: 99;
 }
 
+.second-expet {
+    background-color: #733e00;
+}
+
 .reverse-content.second-expet .expect-text {
     margin-left: 80px;
 
