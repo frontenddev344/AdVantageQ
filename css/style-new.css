@@ -203,3 +203,78 @@
     font-size: 26px;
     margin-bottom: 10px;
 }
+
+.reverse-content {
+    background-color: #093c55;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.expect-text {
+    background-color: #fff;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    width: 100%;
+    margin-left: -80px;
+    padding: 40px;
+    position: relative;
+    z-index: 99;
+}
+
+.reverse-content.second-expet .expect-text {
+    margin-left: 80px;
+
+}
+
+.expectimg {
+    height: 500px;
+}
+
+.expectimg img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+section.hero--reverse {
+    padding: 60px 0;
+}
+
+.reverse-content .row {
+    align-items: center;
+}
+
+.reverse-btn {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+.reverse-btn a {
+    background-color: #093c55;
+
+}
+
+.reverse-btn a:hover {
+    color: #fff;
+}
+
+.reverse-btn a::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+    transition-property: transform;
+    transition-duration: 0.7s;
+    transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+
+.reverse-btn a::after {
+    background: var(--dark-brown);
+}
