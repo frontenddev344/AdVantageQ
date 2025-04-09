@@ -38,7 +38,8 @@
 }
 
 /*  */
-.contact-bnr {
+.contact-bnr,
+.how-it-works-bnr {
     background: url(../images/img/page-title-of-seo.jpg);
     background-repeat: no-repeat;
     background-position: center center;
