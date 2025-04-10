@@ -109,7 +109,7 @@
                   <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="blog-post">
                       <div class="blog-post-img">
-                        <img src="images/img/general-img1.jpg" alt="">
+                        <img src="images/img/blog3.jpg" alt="">
                         <div class="post-meta-category">
                           <a href="#">Business</a>
                         </div>
@@ -130,7 +130,7 @@
                   <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="blog-post">
                       <div class="blog-post-img">
-                        <img src="images/img/general-img1.jpg" alt="">
+                        <img src="images/img/blog2.jpg" alt="">
                         <div class="post-meta-category">
                           <a href="#">Development</a>
                         </div>
@@ -149,6 +149,18 @@
                     </div>
                   </div>
                 </div>
+                <div class="pagination-custom">
+                  <div class="pagination-inner">
+                    <a href="#" class="prev"><i class="fa-solid fa-angles-left"></i> </a>
+                    <a href="#" class="active">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+                    <a href="#">5</a>
+                    <a href="#" class="next"><i class="fa-solid fa-angles-right"></i>  </a>
+                  </div>
+
+                </div>
               </div>
             </div>
             <div id="tab-2" class="tab-content">
@@ -157,7 +169,7 @@
                   <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="blog-post">
                       <div class="blog-post-img">
-                        <img src="images/img/general-img1.jpg" alt="">
+                        <img src="images/img/blog3.jpg" alt="">
                         <div class="post-meta-category">
                           <a href="#">Creative</a>
                         </div>
@@ -178,7 +190,7 @@
                   <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="blog-post">
                       <div class="blog-post-img">
-                        <img src="images/img/general-img1.jpg" alt="">
+                        <img src="images/img/blog2.jpg" alt="">
                         <div class="post-meta-category">
                           <a href="#">Creative</a>
                         </div>
@@ -196,7 +208,7 @@
                       </div>
                     </div>
                   </div>
-                 
+
                 </div>
               </div>
             </div>
@@ -227,7 +239,7 @@
                   <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="blog-post">
                       <div class="blog-post-img">
-                        <img src="images/img/general-img1.jpg" alt="">
+                        <img src="images/img/blog3.jpg" alt="">
                         <div class="post-meta-category">
                           <a href="#">Creative</a>
                         </div>
@@ -248,7 +260,7 @@
                   <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="blog-post">
                       <div class="blog-post-img">
-                        <img src="images/img/general-img1.jpg" alt="">
+                        <img src="images/img/blog2.jpg" alt="">
                         <div class="post-meta-category">
                           <a href="#">Creative</a>
                         </div>
@@ -275,7 +287,7 @@
                   <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="blog-post">
                       <div class="blog-post-img">
-                        <img src="images/img/general-img1.jpg" alt="">
+                        <img src="images/img/blog3.jpg" alt="">
                         <div class="post-meta-category">
                           <a href="#">Creative</a>
                         </div>
@@ -296,7 +308,7 @@
                   <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="blog-post">
                       <div class="blog-post-img">
-                        <img src="images/img/general-img1.jpg" alt="">
+                        <img src="images/img/blog2.jpg" alt="">
                         <div class="post-meta-category">
                           <a href="#">Creative</a>
                         </div>
@@ -338,7 +350,7 @@
                   <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="blog-post">
                       <div class="blog-post-img">
-                        <img src="images/img/general-img1.jpg" alt="">
+                        <img src="images/img/blog3.jpg" alt="">
                         <div class="post-meta-category">
                           <a href="#">Creative</a>
                         </div>
@@ -365,7 +377,7 @@
                   <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="blog-post">
                       <div class="blog-post-img">
-                        <img src="images/img/general-img1.jpg" alt="">
+                        <img src="images/img/blog2.jpg" alt="">
                         <div class="post-meta-category">
                           <a href="#">Creative</a>
                         </div>
@@ -407,7 +419,7 @@
                   <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="blog-post">
                       <div class="blog-post-img">
-                        <img src="images/img/general-img1.jpg" alt="">
+                        <img src="images/img/blog3.jpg" alt="">
                         <div class="post-meta-category">
                           <a href="#">Creative</a>
                         </div>
@@ -449,7 +461,7 @@
                   <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="blog-post">
                       <div class="blog-post-img">
-                        <img src="images/img/general-img1.jpg" alt="">
+                        <img src="images/img/blog3.jpg" alt="">
                         <div class="post-meta-category">
                           <a href="#">Creative</a>
                         </div>
@@ -680,20 +692,20 @@
     $(document).ready(function () {
       $('ul.tabs li').click(function () {
         var tab_id = $(this).attr('data-tab');
-  
+
         // Remove current class and hide all tab contents
         $('ul.tabs li').removeClass('current');
         $('.tab-content').removeClass('current').hide();
-  
+
         // Add current class to clicked tab
         $(this).addClass('current');
-  
+
         // Show the selected tab with fadeIn
         $("#" + tab_id).addClass('current').fadeIn(500); // 500ms fade-in duration
       });
     });
   </script>
-  
+
 </body>
 
 </html>
