@@ -695,6 +695,11 @@ button.widget-btn {
 .blog-img img {
     border-radius: 25px;
 }
+
 .blog-details-wrapper {
     margin-bottom: 30px;
+}
+
+table.comparison-table th {
+    color: #000;
 }
