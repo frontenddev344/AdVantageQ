@@ -504,3 +504,25 @@ li.tab-link.current {
 .the-benefits-inner .row .col-md-4 {
     margin-bottom: 30px;
 }
+
+.benefits-content {
+    padding: 20px;
+}
+
+.the-benefits.py-5 {
+    background: linear-gradient(90deg, #f8f8ff 0.81%, rgba(248, 248, 255, 0) 100%);
+}
+
+.benefits-content h4 {
+    margin-bottom: 5px;
+}
+
+.benefits-img {
+    height: 200px;
+}
+
+.benefits-img img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
