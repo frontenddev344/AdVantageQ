@@ -8,7 +8,7 @@
     padding-bottom: 90px;
     position: relative;
     z-index: 1;
-    height: 500px;
+    height: 400px;
     background-repeat: no-repeat !important;
     background-position: center center !important;
     background-size: cover !important;
@@ -263,16 +263,19 @@ section.hero--reverse {
     align-items: center;
 }
 
-.reverse-btn a {
+.reverse-btn a,
+.reverse-btn button {
     background-color: #093c55;
 
 }
 
-.reverse-btn a:hover {
+.reverse-btn a:hover,
+.reverse-btn button:hover {
     color: #fff;
 }
 
-.reverse-btn a::after {
+.reverse-btn a::after,
+.reverse-btn button::after {
     content: "";
     position: absolute;
     z-index: -1;
@@ -287,7 +290,8 @@ section.hero--reverse {
     transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
 }
 
-.reverse-btn a::after {
+.reverse-btn a::after,
+.reverse-btn button::after {
     background: var(--dark-brown);
 }
 
@@ -527,4 +531,65 @@ li.tab-link.current {
     width: 100%;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+}
+
+.zip-check-form {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    transition: all 0.4s ease-in-out;
+    box-shadow: 0px 0px 20px 10px rgba(216, 216, 216, 0.25);
+    border-radius: 15px;
+    height: 100%;
+    padding: 30px;
+}
+
+.zip-check-form select,
+.zip-check-form input {
+    display: block;
+    width: 100%;
+    padding: 11px 20px;
+    border-radius: 10px;
+    outline: none;
+    transition: all 0.3s ease;
+    border: 1px solid #a3a2a3;
+    resize: none;
+    outline: none;
+    box-shadow: none;
+    margin-bottom: 16px;
+}
+
+.form-control:focus,
+.zip-check-form select:focus {
+
+    border-color: #000;
+    outline: 0;
+    box-shadow: none;
+}
+
+.availability {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.availability ul {
+    list-style: none;
+    padding: 0;
+}
+
+.availability ul li {
+    color: #000;
+}
+
+.availability p {
+    color: #000;
+}
+
+.note-div {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.note-div p {
+    margin: 0;
 }
