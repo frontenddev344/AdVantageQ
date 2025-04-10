@@ -9,6 +9,9 @@
     position: relative;
     z-index: 1;
     height: 500px;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-size: cover !important;
 }
 
 .inner-bnr::after {
@@ -25,6 +28,7 @@
     color: #fff;
     text-align: center;
     font-size: 44px;
+    margin: 0;
     line-height: 1.4em;
 }
 
@@ -448,4 +452,42 @@ li.tab-link.current {
 .pagination-inner a:hover {
     background-color: #093c55 !important;
     color: #fff;
+}
+
+/*  */
+.program-bnr {
+    background: url(../images/img/Program.avif);
+}
+
+/*  */
+.industry-categories-wrapper {
+    transition: all 0.4s ease-in-out;
+    box-shadow: 0px 0px 20px 10px rgba(216, 216, 216, 0.25);
+    border-radius: 15px;
+    height: 100%;
+}
+
+.industry-categories-content {
+    padding: 20px;
+}
+
+.industry-categories .row .col-lg-3.col-md-6 {
+    margin-bottom: 30px;
+}
+.industry-categories-content h4 {
+    margin-bottom: 5px;
+}
+
+.industry-categories-img {
+    height: 200px;
+}
+
+.industry-categories-img img {
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.categories-btn {
+    text-align: center;
 }
