@@ -4,7 +4,7 @@
 
 .inner-bnr {
     background-color: #0d0c17;
-    padding-top: 195px;
+    padding-top: 90px;
     padding-bottom: 90px;
     position: relative;
     z-index: 1;
@@ -12,6 +12,8 @@
     background-repeat: no-repeat !important;
     background-position: center center !important;
     background-size: cover !important;
+    display: flex;
+    align-items: center;
 }
 
 .inner-bnr::after {
@@ -312,12 +314,19 @@ section.hero--reverse {
 
 }
 
+.tabs-wrapper {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    width: 100%;
+}
+
 .categories .tabs {
     display: flex;
     list-style: none;
     justify-content: center;
     gap: 20px;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
+    min-width: max-content;
 }
 
 .blog-post-img img {
@@ -557,6 +566,7 @@ li.tab-link.current {
     outline: none;
     box-shadow: none;
     margin-bottom: 16px;
+    color: #000;
 }
 
 .form-control:focus,
@@ -579,10 +589,12 @@ li.tab-link.current {
 
 .availability ul li {
     color: #000;
+    font-family: var(--sansantion);
 }
 
 .availability p {
     color: #000;
+    font-family: var(--sansantion);
 }
 
 .note-div {
@@ -592,4 +604,9 @@ li.tab-link.current {
 
 .note-div p {
     margin: 0;
+    font-family: var(--sansantion);
+}
+
+.blog-post-info h4 {
+    margin-bottom: 10px;
 }
