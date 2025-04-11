@@ -714,6 +714,23 @@ table {
     border-collapse: collapse;
 }
 
+
+/* Responsive */
+
+@media(max-width:1199px) {
+    .inner-bnr {
+        padding-top: 0;
+        padding-bottom: 0;
+        height: 300px;
+
+    }
+
+    .inner-heading h2 {
+        font-size: 28px;
+
+    }
+}
+
 @media(max-width:991px) {
     .sec-heading h3 {
         font-size: 26px;
