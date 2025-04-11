@@ -774,19 +774,86 @@ table {
     margin-bottom: 18px;
 }
 
+.checkbox-title {
+    background-color: #fff;
+    background-repeat: no-repeat;
+    border: 1px solid #eaebed;
+    border-radius: 8px;
+}
+
+.checkbox-title:hover {
+    border: 1px solid #70bf2b;
+    transition: all 0.3s;
+}
+
+.cards-affiliate {
+    display: grid;
+    flex-wrap: nowrap;
+    gap: 26px;
+    justify-content: center;
+    margin: 40px auto auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding: 15px 3px 0;
+    scroll-behavior: smooth;
+    scroll-padding-left: 20px;
+    -ms-scroll-snap-type: x mandatory;
+    scroll-snap-type: x mandatory;
+    width: 100%;
+    grid-template-columns: repeat(5, 214px);
+}
+
+.bottom-title {
+    color: #667082;
+    font-weight: 500;
+    margin: 20px 0;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+}
+
+.affilirsinner {
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.affilirsinner h5 {
+    font-size: 30px;
+    line-height: 1.3em;
+    color: #093c55;
+    margin-bottom: 10px;
+    font-weight: 900;
+}
 
 
+.checkbox-title input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #000;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 12px;
+    position: relative;
+}
 
+.checkbox-title input[type="checkbox"]:checked::after {
+    content: '';
+    position: absolute;
+    left: 4px;
+    top: 0px;
+    width: 6px;
+    height: 12px;
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
 
-
-
-
-
-
-
-
-
-
+.image-outer {
+    text-align: center;
+}
 
 
 
