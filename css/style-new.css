@@ -731,6 +731,9 @@ table {
         font-size: 28px;
 
     }
+    .cs_content {
+        margin-top: 80px;
+    }
 }
 
 @media(max-width:991px) {
