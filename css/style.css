@@ -2759,6 +2759,10 @@ a.cs_header_text_btn {
   .cs_site_header.cs_style_1 .cs_action_box>*:not(:last-child) {
     margin-right: 25px;
   }
+  .categories .tabs {
+    padding-bottom: 10px;
+
+}
 }
 
 @media screen and (max-width: 575px) {
