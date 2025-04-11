@@ -713,3 +713,10 @@ table {
     min-width: 600px;
     border-collapse: collapse;
 }
+
+@media(max-width:991px) {
+    .sec-heading h3 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+}
