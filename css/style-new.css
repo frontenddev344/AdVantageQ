@@ -738,4 +738,23 @@ table {
         font-size: 26px;
         line-height: 36px;
     }
+
+    .expect-text {
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 0;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+
+    .expectimg {
+        height: 300px;
+    }
+
+    .reverse-content.second-expet .expect-text {
+        margin-left: 0;
+    }
+
+    .second-expet .row {
+        flex-direction: column-reverse;
+    }
 }
