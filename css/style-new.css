@@ -792,14 +792,7 @@ table {
     gap: 26px;
     justify-content: center;
     margin: 40px auto auto;
-    overflow-x: hidden;
-    overflow-y: hidden;
     padding: 15px 3px 0;
-    scroll-behavior: smooth;
-    scroll-padding-left: 20px;
-    -ms-scroll-snap-type: x mandatory;
-    scroll-snap-type: x mandatory;
-    width: 100%;
     grid-template-columns: repeat(5, 214px);
 }
 
@@ -889,12 +882,22 @@ table {
     .cs_content {
         margin-top: 80px;
     }
+
+    .cards-affiliate {
+
+        grid-template-columns: repeat(4, 214px);
+    }
 }
 
 @media(max-width:991px) {
     .sec-heading h3 {
         font-size: 26px;
         line-height: 36px;
+    }
+
+    .cards-affiliate {
+
+        grid-template-columns: repeat(3, 214px);
     }
 
     .expect-text {
@@ -932,8 +935,15 @@ table {
     }
 }
 
-@media(max-width:991px) {
-    .cs_check {
-        font-size: 14px !important;
+@media(max-width:767px) {
+    .cards-affiliate {
+
+        grid-template-columns: repeat(2, 214px);
+    }
+}
+@media(max-width:575px) {
+    .cards-affiliate {
+
+        grid-template-columns: 1fr;
     }
 }
