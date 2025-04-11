@@ -703,3 +703,13 @@ button.widget-btn {
 table.comparison-table th {
     color: #000;
 }
+
+.comparison-section {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    min-width: 600px;
+    border-collapse: collapse;
+}
