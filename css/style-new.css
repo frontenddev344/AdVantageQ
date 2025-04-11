@@ -571,6 +571,11 @@ li.tab-link.current {
     color: #000;
 }
 
+
+.zip-check-form input::placeholder{
+    color: #000;
+}
+
 .form-control:focus,
 .zip-check-form select:focus {
 
@@ -986,6 +991,9 @@ section.why-tap {
     background: linear-gradient(135deg, #f2f6fa, #e9eff5);
 }
 
+.check-btn {
+    margin-top: 30px;
+}
 
 
 
