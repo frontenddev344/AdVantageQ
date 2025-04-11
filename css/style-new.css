@@ -757,5 +757,17 @@ table {
     .second-expet .row {
         flex-direction: column-reverse;
     }
+    .categories .tabs {
+        padding-bottom: 10px;
+    
+    }
+    .pagination-inner a {
+        width: 26px;
+        height: 26px;   
+        font-size: 14px;
+    }
+    .pagination-inner {
+        gap: 6px;
+    }
 }
 
