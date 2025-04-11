@@ -56,7 +56,7 @@
       $(this)
         .toggleClass('cs_toggle_active')
         .siblings('.cs_nav_list')
-        .toggleClass('cs_active');
+        .toggleClass('toggle-menu');
     });
     $('.cs_menu_toggle')
       .parents('body')

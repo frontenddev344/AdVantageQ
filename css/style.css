@@ -2616,7 +2616,7 @@ a.cs_header_text_btn {
     transition: all 0.4s ease;
   }
 
-  .cs_nav .cs_nav_list.cs_active {
+  .cs_nav .cs_nav_list.toggle-menu {
     left: 0vw;
   }
 
@@ -2700,25 +2700,39 @@ a.cs_header_text_btn {
     margin-top: -13px;
   }
 
-  .cs_toggle_active span {
-    background-color: rgba(0, 0, 0, 0);
+  .cs_menu_toggle span {
+    background-color:var(--secondary-clr);
     transition-delay: 0.2s;
   }
 
-  .cs_toggle_active span:before {
+  .toggle-menu span:before {
     margin-top: 0;
-    transform: rotate(45deg);
+    
     transition-delay: 0s, 0.2s;
     background-color: #fff;
   }
 
-  .cs_toggle_active span:after {
+  .toggle-menu span:after {
     margin-top: 0;
     transform: rotate(-45deg);
     transition-delay: 0s, 0.2s;
     background-color: #fff;
   }
 
+  .toggle-menu + span.cs_menu_toggle span {
+    background-color: transparent;
+}
+
+.toggle-menu + span.cs_menu_toggle span::before {
+  background: #fff;
+  transform: rotate(45deg) translateX(13px) translateY(12px);
+  transition-delay: 0.2s;
+}
+.toggle-menu + span.cs_menu_toggle span::after{
+  background: #fff;
+  transform: rotate(-45deg);
+  transition-delay: 0.2s;
+}
   .cs_nav .cs_nav_list a {
     position: relative;
   }
