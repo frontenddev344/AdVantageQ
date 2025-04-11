@@ -952,6 +952,11 @@ section.why-tap {
 
 .steps__title {
     text-align: center;
+    font-size: 30px;
+    line-height: 1.3em;
+    color: #093c55;
+    margin-bottom: 10px;
+    font-weight: 900;
 }
 
 .steps__box:before {
