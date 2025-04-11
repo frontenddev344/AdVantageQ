@@ -2288,6 +2288,8 @@ a.cs_header_text_btn {
     position: relative;
   }
 
+
+
   .cs_main_header .container-fluid {
     padding-right: 40px;
     padding-left: 40px;
@@ -2742,6 +2744,10 @@ a.cs_header_text_btn {
 
   .cs_has_main_nav {
     display: none;
+  }
+
+  .cs_main_header_left {
+    z-index: -1;
   }
 }
 
