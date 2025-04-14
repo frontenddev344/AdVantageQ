@@ -390,7 +390,7 @@ li.tab-link.current {
 }
 
 .blog-post-info {
-    padding: 30px;
+    padding: 1rem;
 }
 
 .pgsel_blogpost .row .col-lg-4.col-md-6.col-sm-12 {
@@ -572,7 +572,7 @@ li.tab-link.current {
 }
 
 
-.zip-check-form input::placeholder{
+.zip-check-form input::placeholder {
     color: #000;
 }
 
@@ -994,6 +994,124 @@ section.why-tap {
 .check-btn {
     margin-top: 30px;
 }
+
+/*  */
+.serve {
+    background: url(../images/img/service-2.jpeg);
+}
+
+.blog-featured-posts {
+    grid-gap: 1.75rem;
+    grid-template-columns: min-content 1fr;
+    grid-template-rows: auto;
+    display: grid;
+}
+
+.blog-post-card {
+    width: 37.5rem;
+    background-color: #093c55;
+}
+
+.blog-post-card-featured-image {
+    height: 18.75rem;
+}
+
+.blog-post-card-featured-image a {
+    display: block;
+    height: 100%;
+}
+
+.blog-post-card-featured-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.blog-post-card-body {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    height: 100%;
+    padding: 1.5rem;
+}
+
+.blog-post-card .blog-post-card-title {
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 700;
+    padding-bottom: 1rem;
+    margin: 0;
+}
+
+
+.blog-post-card .blog-post-card-description {
+    margin: 0;
+    padding-bottom: 1.5rem;
+    color: #fff;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.blog-featured-category-posts-header h2 {
+    border-bottom: 2px solid #83c501;
+    margin-top: 0;
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 2rem;
+}
+
+.blog-post-card-horizontal .blog-post-card-body {
+    padding: 0;
+}
+
+.blog-post-card-horizontal h3 {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.blog-post-card-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-post-card-footer p {
+    margin: 0;
+}
+
+.blog-post-card-horizontal .blog-post-card-body {
+    border-bottom: 2px solid #dbe4ed;
+    flex-direction: column;
+    gap: .5rem;
+    padding: 0 0 1rem;
+    margin-top: .75rem;
+}
+
+.blog-post-card .blog-post-card-footer {
+    color: #fff;
+}
+
+.pgsel_blogpost-main .blog-post-info h4 {
+    font-size: 18px;
+}
+
+.pgsel_blogpost-main .blog-post-info p {
+    font-size: 14px;
+}
+
+.popular-blog h2 {
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
 
 
 

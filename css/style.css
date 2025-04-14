@@ -1652,7 +1652,7 @@ textarea {
   position: relative;
   background-color: #ffffff;
   z-index: 2;
-  overflow-x: hidden;
+  overflow-x: unset;
 }
 
 @media (max-width: 991px) {
