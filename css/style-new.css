@@ -1169,7 +1169,39 @@ section.why-tap {
     text-decoration: none;
     border-radius: 3px;
     }
-    
+    .widget-posts li a {display: block;font-size: 13px;font-weight: 500;text-decoration: none;}
+.widget-posts li {
+padding: 12px 0;
+font-size: 14px;
+line-height: 1.4;
+border-bottom: 1px dotted #ccc;
+}
+.widget-posts li img{
+height:60px;
+object-fit:cover;
+}
+.clearlist {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+
+
+ul.clearlist.widget-posts li {
+display: grid;
+grid-template-columns: auto 1fr;
+gap: 10px;
+align-items: center;
+}
+
+.widget-posts li  span {
+font-size: 11px;
+}
+.widget-comments li {
+padding: 12px 0;
+border-bottom: 1px dotted #ddd;
+}
     
 
 
