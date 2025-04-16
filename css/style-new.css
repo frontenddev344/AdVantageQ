@@ -321,15 +321,34 @@ section.hero--reverse {
     width: 100%;
 }
 
+/* width */
+.tabs-wrapper::-webkit-scrollbar {
+width: 2px;
+height: 5px;
+}
+
+
+/* Handle */
+.tabs-wrapper::-webkit-scrollbar-thumb {
+background: #093c55; 
+border-radius: 10px;
+}
+
+.pgsel_blogpost .col-lg-6.col-md-6.col-sm-12 {
+    margin-bottom: 30px;
+    }
+    
 .categories .tabs {
     display: flex;
     list-style: none;
     justify-content: center;
     gap: 20px;
-    padding-bottom: 50px;
+    padding-bottom: 0;
     min-width: max-content;
 }
-
+.tabs-wrapper {
+    margin-bottom: 42px;
+}
 .blog-post-img img {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -1107,6 +1126,51 @@ section.why-tap {
 }
 
 
+
+
+/* 16/04/2025 */
+.slidebar-blogs {
+    max-width: 300px;
+    margin: 0 0 0 auto;
+    }
+    
+    .slidebar-blogs .search-wrap input {height: 52.5px;}
+    
+    .widget:not(:last-child) {
+    margin-bottom: 60px;
+    }
+    
+    .widget-title {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: -.02em;
+    border-bottom: 1px solid #f0f0f0;
+    }
+    .widget-menu li {
+    padding: 5px 0;
+    list-style:none;
+    }
+    ul.clearlist.widget-menu{
+    margin:0;
+    padding:0;
+    }
+    .widget-menu li small {
+    font-size: 12px;
+    }
+    
+    .tags a {
+    display: inline-block;
+    margin: 0 2px 8px 0;
+    padding: 5px 7px;
+    border: 1px solid #ededed;
+    font-size: 15px;
+    text-decoration: none;
+    border-radius: 3px;
+    }
+    
+    
 
 
 
