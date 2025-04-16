@@ -709,9 +709,9 @@ font-family: var(--sansantion);
 .blog-sidebar .widget:not(:last-child) {
 margin-bottom: 30px;
 }
-
 .blog-content-details {
-margin-top: 20px;
+    margin-top: 20px;
+    margin-bottom: 36px;
 }
 
 .blog-content-details h4 {
@@ -720,6 +720,7 @@ margin-bottom: 6px;
 
 .blog-img img {
 border-radius: 25px;
+width: 100%;
 }
 
 .blog-details-wrapper {
@@ -1187,7 +1188,10 @@ padding: 0;
 margin: 0;
 }
 
-
+.blog-img {
+display: flex;
+gap: 24px;
+}
 
 ul.clearlist.widget-posts li {
 display: grid;
@@ -1203,7 +1207,9 @@ font-size: 11px;
 padding: 12px 0;
 border-bottom: 1px dotted #ddd;
 }
-
+.blog-img-part img {
+    width: 100%;
+}
 
 
 
