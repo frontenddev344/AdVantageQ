@@ -432,7 +432,7 @@ li.tab-link.current {
     outline: none;
     border: none;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 16px;
     font-family: var(--sansantion);
     background-color: #093c55;
 }
