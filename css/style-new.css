@@ -1400,16 +1400,18 @@ form.ads-form .ads-form::placeholder {
     width: 100%;
     background-color: #093c55;
 }
-.ads-form-btn:hover{
+
+.ads-form-btn:hover {
     color: #fff;
 
 }
+
 button.ads-form-btn.cs_btn:hover::after {
     background-color: #733e00;
 
 }
 
-
+select option:hover{background-color:yellow !important;}
 
 
 /* Responsive */
@@ -1472,5 +1474,11 @@ button.ads-form-btn.cs_btn:hover::after {
 
     .pagination-inner {
         gap: 6px;
+    }
+}
+
+@media(max-width:767px) {
+    form.ads-form .row .col-md-4 {
+        margin-bottom: 20px;
     }
 }
