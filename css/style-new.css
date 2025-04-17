@@ -1585,7 +1585,29 @@ button.close {
 .custom-select-wrapper.open .custom-options {
     display: block;
 }
+.modal-custom-footer input {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    padding: 12px 30px;
+    border-radius: 7px;
+    font-weight: 600;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: var(--sansantion);
+    background-color: #093c55;
+    width: auto;
+}
 
+.modal-custom-footer {
+    text-align: right;
+}
 
 
 
