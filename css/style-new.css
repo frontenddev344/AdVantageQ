@@ -1282,6 +1282,7 @@ ul.clearlist.widget-posts li {
     height: 50px;
     border-radius: 50%;
     overflow: hidden;
+    z-index: -1;
 }
 
 .profile-img-box img {
@@ -1355,9 +1356,58 @@ ul.clearlist.widget-posts li {
     padding-bottom: 10px;
 }
 
+/*  */
+.pgsel_blogpost-ads {
+    margin-top: 50px;
+}
 
+.pgsel_blogpost-ads .row .col-lg-4.col-md-6.col-sm-12 {
+    margin-bottom: 30px;
+}
 
+form.ads-form .ads-form {
+    display: block;
+    width: 100%;
+    padding: 11px 20px;
+    border-radius: 10px;
+    outline: none;
+    transition: all 0.3s ease;
+    border: 1px solid #a3a2a3;
+    resize: none;
+    box-shadow: none;
+}
 
+form.ads-form .ads-form::placeholder {
+    color: #000;
+}
+
+.ads-form-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    padding: 12px 30px;
+    border-radius: 7px;
+    font-weight: 600;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: var(--sansantion);
+    width: 100%;
+    background-color: #093c55;
+}
+.ads-form-btn:hover{
+    color: #fff;
+
+}
+button.ads-form-btn.cs_btn:hover::after {
+    background-color: #733e00;
+
+}
 
 
 
