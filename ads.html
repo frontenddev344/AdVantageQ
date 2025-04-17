@@ -102,7 +102,7 @@
                                 <div class="col-md-4">
                                     <div class="add-btn">
                                         <button type="submit" class="ads-form-btn cs_btn ">Check</button>
-                                        <button type="button" class="ads-form-btn " data-toggle="modal"
+                                        <button type="button" class="ads-form-btn cs_btn  " data-toggle="modal"
                                             data-target="#exampleModalCenter">
                                             Add Ads
                                         </button>
@@ -175,15 +175,21 @@
                         </div>
                         <div class="row">
                             <div class="col-md-6">
-                                <div class="ads-modal-wraper">
-                                    <label for="industry">Select Industry:</label>
-                                    <select id="industry" name="industry">
-                                        <option>Select Industry </option>
-                                        <option>Real Estate</option>
-                                        <option>Cleaning Services</option>
-                                        <option>Dental & Medical</option>
-                                    </select>
+                                <div class="custom-select-wrapper">
+                                    <label for="new-industry">Select Industry:</label>
+                                    <div class="custom-select-trigger">Availability by Industry 
+                                        <span class="select-icon"><i class="fa fa-chevron-down"></i></span>
+                                      </div>
+                                    <ul class="custom-options">
+                                        <li class="custom-option" data-value="Real Estate">Real Estate</li>
+                                        <li class="custom-option" data-value="Cleaning Services">Cleaning Services
+                                        </li>
+                                        <li class="custom-option" data-value="Dental & Medical">Dental & Medical
+                                        </li>
+                                    </ul>
                                 </div>
+                                <input type="hidden" name="industry" id="selected-industry" required>
+
 
                             </div>
                             <div class="col-md-6">
@@ -194,8 +200,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="modal-custom-footer">
-                            <button type="button" class="cs_btn cs_bg_accent cs_dark_hover">Submit Ads</button>
+                        <div class="modal-custom-footer cs_btn cs_bg_accent cs_modal_btn">
+                            <input type="submit" name="submit_ad" value="Submit Ads">
                         </div>
                     </form>
                 </div>
